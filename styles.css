@@ -1,0 +1,103 @@
+/* Set the body background color to a dark blue */
+body {
+    background-color: #0e1e3d;
+  }
+  
+  /* Set the font family and color for the page */
+  body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283b70;
+    padding: 20px;
+  }
+  
+  /* Style the header title */
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Style the navigation menu in the header */
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  /* Style the navigation links in the header */
+  header nav a {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  header nav a:hover {
+    color: #66b3ff;
+  }
+  
+  /* Style the active navigation link in the header */
+  header nav .active {
+    color: #66b3ff;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the map */
+  #map {
+    height: 500px;
+  }
+  
+  /* Style the stats and photos selection */
+  .selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .selection a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #283b70;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .selection a:hover {
+    background-color: #66b3ff;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #283b70;
+    padding: 20px;
+  }
+  
+  /* Style the footer text */
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
